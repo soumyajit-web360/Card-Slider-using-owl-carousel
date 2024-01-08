@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    box-sizing: border-box;
+}
+h2, h3{
+    font-weight: 700;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+#testimonials{
+    background-color: #f63854;
+    text-align: center;
+}
+#testimonials h2{
+    color: #fff;
+    margin-bottom: 30px;
+    word-spacing: 10px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.section-padding{
+    padding: 30px ;
+}
+.image-thumb{
+    text-align: center;
+    margin:15px;
+}
+
+.image-thumb img{
+    width: inherit !important;
+    display: inline-block;
+    border-radius: 50%;
+    margin: auto;
+}
+h2 a{
+    color: #222;
+}
+h3 a{
+    color: #333;
+}
+.testimonial-item{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 13px 5px;
+}
+p{
+    color: #222;
+}
+.star-icon span{
+    color: #f63854;
+}
+#testimonials .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 50px;
+}
+#testimonials .owl-theme .owl-dots .owl-dot span{
+    color: #fff;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+#testimonials .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #f63854;
+}
+#testimonials .owl-theme .owl-dots .owl-dot.active span{
+    background-color: #f63854;
+}
+
+
+
+@media only screen and (max-width:1140px) {
+    .container{
+        width: 100%;
+        
+    }
+}
