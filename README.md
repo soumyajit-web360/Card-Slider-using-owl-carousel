@@ -1,1 +1,1 @@
-click here to see https://soumyajit-web360.github.io/card-slider-using-owl-carousel/
+click here to see slider https://soumyajit-web360.github.io/card-slider-using-owl-carousel/
